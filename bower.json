@@ -1,20 +1,20 @@
 {
-  "name": "pubsub.angular",
-  "version": "0.0.1",
-  "authors": [
+    "name": "pubsub.angular",
+    "version": "0.0.1",
+    "authors": [
     "Octavio Turra <octavio.turra@gmail.com>"
   ],
-  "description": "Data load and management async, by publish subscribe pattern for angular. Include some underscore ports and tools",
-  "main": "pubsub.angular.js",
-    "dependencies":{
-        "pubsub-js":"*"
-    }
-  "keywords": [
+    "description": "Data load and management async, by publish subscribe pattern for angular. Include some underscore ports and tools",
+    "main": "pubsub.angular.js",
+    "dependencies": {
+        "pubsub-js": "*"
+    },
+    "keywords": [
     "data",
     "pubsub",
     "angular",
     "directives"
   ],
-  "license": "MIT",
-  "homepage": "http://fraguto.com.br"
+    "license": "MIT",
+    "homepage": "http://fraguto.com.br"
 }
