@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('pubsub.angular')
-    .directive('subscribe', function (ps) {
+    .directive('ps-subscribe', function (ps) {
         return {
             template: '<div ng-transclude></div>',
             transclude: true,
