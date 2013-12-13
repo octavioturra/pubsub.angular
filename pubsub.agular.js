@@ -25,7 +25,7 @@ pubsubangular
                     context.event = attr[0].trim();
                 } else if (attr.length == 2) {
                     context.event = attr[0].trim();
-                    context.container = attr[1].trim();
+                    context.data = attr[1].trim();
                 }
 
                 ps.subscribe(context.event, function (label, d) {
